@@ -7,8 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    
-    {% include header.html %}
+    {% if page.title == "New title"}
+        {% include header.html %}
+    {% else %}
+        <h2>NO hader</h2>
+    {% endif %}
     <hr>
     {{content}}
 </body>

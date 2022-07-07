@@ -1,5 +1,5 @@
 ---
-layout: "page"
+layout: "default"
 title: Cding Life
 permalink: '/%$coding&&post_$url/'
 ---

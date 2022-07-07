@@ -1,0 +1,7 @@
+---
+layout: "post"
+title: "New title"
+date:   2022-07-06 15:30:39 +0200
+categories: jekyll code
+---
+Some content

@@ -15,5 +15,10 @@
     {% for post in site.posts %}
         <li><a href="{{post.url}}">{{post.title}}</a></li>
     {% endfor %}
+
+    <h4>Team</h4>
+    {% for person in site.data.people %}
+        <li>{{person.name}}: {{person.role}}</li>
+    {% endfor%}
 </body>
 </html>

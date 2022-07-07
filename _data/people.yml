@@ -1,0 +1,8 @@
+- name: "kandy"
+  role: "Senior developer"
+
+- name: "JOnh"
+  role: "Tech leader"
+
+- name: "Daniel"
+  role: "Junior dev"
